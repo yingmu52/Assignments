@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02222911DFA846300C99C27 /* LottoFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02222901DFA846300C99C27 /* LottoFinderTests.swift */; };
 		A07900D81DF8D21E001A3238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07900D71DF8D21E001A3238 /* AppDelegate.swift */; };
 		A07900DA1DF8D21E001A3238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07900D91DF8D21E001A3238 /* ViewController.swift */; };
 		A07900DD1DF8D21E001A3238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07900DB1DF8D21E001A3238 /* Main.storyboard */; };
@@ -14,7 +15,20 @@
 		A07900E21DF8D21E001A3238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07900E01DF8D21E001A3238 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A02222931DFA846300C99C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07900CC1DF8D21E001A3238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07900D31DF8D21E001A3238;
+			remoteInfo = LottoFinder;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A022228E1DFA846200C99C27 /* LottoFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02222901DFA846300C99C27 /* LottoFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoFinderTests.swift; sourceTree = "<group>"; };
+		A02222921DFA846300C99C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07900D41DF8D21E001A3238 /* LottoFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07900D71DF8D21E001A3238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07900D91DF8D21E001A3238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A022228B1DFA846200C99C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A07900D11DF8D21E001A3238 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A022228F1DFA846300C99C27 /* LottoFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02222901DFA846300C99C27 /* LottoFinderTests.swift */,
+				A02222921DFA846300C99C27 /* Info.plist */,
+			);
+			path = LottoFinderTests;
+			sourceTree = "<group>";
+		};
 		A07900CB1DF8D21E001A3238 = {
 			isa = PBXGroup;
 			children = (
 				A07900D61DF8D21E001A3238 /* LottoFinder */,
+				A022228F1DFA846300C99C27 /* LottoFinderTests */,
 				A07900D51DF8D21E001A3238 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A07900D41DF8D21E001A3238 /* LottoFinder.app */,
+				A022228E1DFA846200C99C27 /* LottoFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +99,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A022228D1DFA846200C99C27 /* LottoFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02222951DFA846300C99C27 /* Build configuration list for PBXNativeTarget "LottoFinderTests" */;
+			buildPhases = (
+				A022228A1DFA846200C99C27 /* Sources */,
+				A022228B1DFA846200C99C27 /* Frameworks */,
+				A022228C1DFA846200C99C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02222941DFA846300C99C27 /* PBXTargetDependency */,
+			);
+			name = LottoFinderTests;
+			productName = LottoFinderTests;
+			productReference = A022228E1DFA846200C99C27 /* LottoFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A07900D31DF8D21E001A3238 /* LottoFinder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07900E61DF8D21E001A3238 /* Build configuration list for PBXNativeTarget "LottoFinder" */;
@@ -94,6 +144,12 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Xinyi Zhuang";
 				TargetAttributes = {
+					A022228D1DFA846200C99C27 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z63N39FV7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A07900D31DF8D21E001A3238;
+					};
 					A07900D31DF8D21E001A3238 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5Z63N39FV7;
@@ -115,11 +171,19 @@
 			projectRoot = "";
 			targets = (
 				A07900D31DF8D21E001A3238 /* LottoFinder */,
+				A022228D1DFA846200C99C27 /* LottoFinderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A022228C1DFA846200C99C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A07900D21DF8D21E001A3238 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +197,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A022228A1DFA846200C99C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02222911DFA846300C99C27 /* LottoFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A07900D01DF8D21E001A3238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +215,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02222941DFA846300C99C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07900D31DF8D21E001A3238 /* LottoFinder */;
+			targetProxy = A02222931DFA846300C99C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A07900DB1DF8D21E001A3238 /* Main.storyboard */ = {
@@ -164,6 +244,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A02222961DFA846300C99C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Z63N39FV7;
+				INFOPLIST_FILE = LottoFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialpad.LottoFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoFinder.app/LottoFinder";
+			};
+			name = Debug;
+		};
+		A02222971DFA846300C99C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Z63N39FV7;
+				INFOPLIST_FILE = LottoFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialpad.LottoFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoFinder.app/LottoFinder";
+			};
+			name = Release;
+		};
 		A07900E41DF8D21E001A3238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,6 +392,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A02222951DFA846300C99C27 /* Build configuration list for PBXNativeTarget "LottoFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02222961DFA846300C99C27 /* Debug */,
+				A02222971DFA846300C99C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A07900CF1DF8D21E001A3238 /* Build configuration list for PBXProject "LottoFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -300,6 +416,7 @@
 				A07900E81DF8D21E001A3238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
