@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         }
 }
     
-    func generateInputStrings() -> Array<String> {
+    func generateInputStrings() -> [String] {
         let nElements = 5
         var output = [String]()
         for _ in 1...nElements {
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         return output
     }
     
-    func evaluation(luckyNumbers: Array<String>) -> Int {
+    class func evaluation(luckyNumbers: [String]) -> Int {
         /*
          Note that a valid lottery ticket must have 
          1 - 7 unique numbers 
@@ -61,6 +61,11 @@ class ViewController: UIViewController {
         
         //check valid range
         for s in luckyNumbers {
+            
+            if s.hasPrefix("0"){
+                score += 1
+            }
+
             if let s_int = Int(s) {
                 if s_int < lowerbound || s_int > upperbound {
                     score += 1
@@ -76,8 +81,5 @@ class ViewController: UIViewController {
         return score
     }
 
-
 }
-
-
 

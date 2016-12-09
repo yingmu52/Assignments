@@ -20,6 +20,25 @@ class LottoFinderTests: XCTestCase {
         super.tearDown()
     }
     
+    func testEvaluationFunction(){
+        
+        //test unique 
+        for _ in 1 ... 100 {
+            let uniqueRandomNumbers = getRandomUniqueNumbers()
+            assert(ViewController.evaluation(luckyNumbers: uniqueRandomNumbers) == 0)
+        }
+    }
     
+    func getRandomUniqueNumbers() -> Array<String> {
+        var array = [String]()
+        while array.count != 7 {
+            let num = "\(Int(arc4random_uniform(59)) + 1)"
+            if !array.contains(num) {
+                array.append(num)
+            }
+        }
+        return array
+    }
+
     
 }
