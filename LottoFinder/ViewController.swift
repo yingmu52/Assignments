@@ -41,45 +41,6 @@ class ViewController: UIViewController {
         return output
     }
     
-    class func evaluation(luckyNumbers: [String]) -> Int {
-        /*
-         Note that a valid lottery ticket must have 
-         1 - 7 unique numbers 
-         2 - between 1 and 59,
-         3 - digits must be used in order, and every digit must be used.
-         */
-
-        let validLength = 7
-        let lowerbound = 1
-        let upperbound = 59
-        var score = 0 //when ever an invalid propertiy is found, 'score' goes up by 1
-        
-        //check valid length
-        if luckyNumbers.count != validLength {
-            score += 1
-        }
-        
-        //check valid range
-        for s in luckyNumbers {
-            
-            if s.hasPrefix("0"){
-                score += 1
-            }
-
-            if let s_int = Int(s) {
-                if s_int < lowerbound || s_int > upperbound {
-                    score += 1
-                }
-            }else{
-                score += 1
-            }
-        }
-        
-        //check if unique
-        score += abs(luckyNumbers.count - Array(Set(luckyNumbers)).count)
-        
-        return score
-    }
 
 }
 
