@@ -11,26 +11,59 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var searchButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchButton.setTitle("Searching...", for: .disabled)
     }
-
     
     @IBAction func searchPressed() {
         //clear textview's text
-        textView.text = "Input Strings: \n"
-        let s = generateInputStrings()
-        for s1 in s {
-            textView.text.append("\"" + s1 + "\"")
-            textView.text.append("\n")
+        textView.text = ""
+
+        
+        let randomStrings = generateInputStrings()
+        searchButton.isEnabled = false
+        
+        DispatchQueue.global().async {
+            for string in randomStrings {
+                if let configs = Brain(str: string).anneal() {
+                    if let candiateNumbers = string.luckyNumbers(for: configs) {
+                        //update UI
+                        DispatchQueue.main.async {
+                            if Brain.cost(numbers: candiateNumbers) == 0 {
+                                self.textView.text.append("\(candiateNumbers) - LUCKY!!")
+                                self.textView.text.append("\n")
+                            }else{
+                                self.textView.text.append("\(string) - No Luck\n")
+                            }
+                        }
+                    }else{
+                        DispatchQueue.main.async {
+                            self.textView.text.append("\(string) - No Luck\n")
+                        }
+                    }
+                }else{
+                    DispatchQueue.main.async {
+                        self.textView.text.append("\(string) - No Luck\n")
+                    }
+                }
+            }
+            DispatchQueue.main.async {
+                self.searchButton.isEnabled = true
+            }
         }
+        
+
+        
 }
     
     func generateInputStrings() -> [String] {
-        let nElements = 5
+        let nElements = 20
         var output = [String]()
         for _ in 1...nElements {
-            let nDigit = Int(arc4random_uniform(14)) + 1 //1~14
+            let nDigit = Int(arc4random_uniform(18)) + 1 //1~20   only [7~14] is in valid range
             var tmp = ""
             for _ in 1...nDigit {
                 let singleDigit = Int(arc4random_uniform(10)) //0~9

@@ -70,6 +70,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="searchButton" destination="47V-2N-Wpy" id="WsX-IG-5Cg"/>
                         <outlet property="textView" destination="QKu-yM-rEX" id="0r7-8u-Z8Y"/>
                     </connections>
                 </viewController>
