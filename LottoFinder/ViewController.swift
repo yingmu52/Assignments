@@ -21,33 +21,24 @@ class ViewController: UIViewController {
     @IBAction func searchPressed() {
         //clear textview's text
         textView.text = ""
-
-        
-        let randomStrings = generateInputStrings()
         searchButton.isEnabled = false
         
         DispatchQueue.global().async {
+            let randomStrings = self.generateInputStrings()
             for string in randomStrings {
-                if let configs = Brain(str: string).anneal() {
-                    if let candiateNumbers = string.luckyNumbers(for: configs) {
-                        //update UI
+                guard let configs = Brain(str: string).anneal(),
+                    let candiateNumbers = string.luckyNumbers(for: configs),
+                    Brain.cost(numbers: candiateNumbers) == 0 else {
                         DispatchQueue.main.async {
-                            if Brain.cost(numbers: candiateNumbers) == 0 {
-                                self.textView.text.append("\(candiateNumbers) - LUCKY!!")
-                                self.textView.text.append("\n")
-                            }else{
-                                self.textView.text.append("\(string) - No Luck\n")
-                            }
+                            self.textView.appendNormalText(text: "\(string) - No Luck\n")
                         }
-                    }else{
-                        DispatchQueue.main.async {
-                            self.textView.text.append("\(string) - No Luck\n")
-                        }
+                        continue;
+                }
+                DispatchQueue.main.async {
+                    if Brain.cost(numbers: candiateNumbers) == 0 {
+                        self.textView.appendLuckyText(text: "\(string) -> \(candiateNumbers.joined(separator: " "))\n")
                     }
-                }else{
-                    DispatchQueue.main.async {
-                        self.textView.text.append("\(string) - No Luck\n")
-                    }
+
                 }
             }
             DispatchQueue.main.async {
@@ -60,7 +51,7 @@ class ViewController: UIViewController {
 }
     
     func generateInputStrings() -> [String] {
-        let nElements = 20
+        let nElements = 30
         var output = [String]()
         for _ in 1...nElements {
             let nDigit = Int(arc4random_uniform(18)) + 1 //1~20   only [7~14] is in valid range
@@ -75,5 +66,26 @@ class ViewController: UIViewController {
     }
     
 
+}
+
+extension UITextView {
+    func  appendNormalText(text: String){
+        let attributes = [NSForegroundColorAttributeName:UIColor.lightGray,
+                          NSFontAttributeName:UIFont.systemFont(ofSize: 13)]
+
+        let current = self.attributedText.mutableCopy() as! NSMutableAttributedString
+        current.append(NSAttributedString(string: text, attributes: attributes))
+        self.attributedText = current
+    }
+    
+    func appendLuckyText(text: String){
+        let attributes = [NSForegroundColorAttributeName:UIColor.red,
+                          NSFontAttributeName:UIFont.systemFont(ofSize: 15)]
+        
+        let current = self.attributedText.mutableCopy() as! NSMutableAttributedString
+        current.append(NSAttributedString(string: text, attributes: attributes))
+        self.attributedText = current
+        
+    }
 }
 
