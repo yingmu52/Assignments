@@ -23,17 +23,25 @@ class ViewController: UIViewController {
         textView.text = ""
         searchButton.isEnabled = false
         
+        
+        //generate random data and find out the lucky numbers
         DispatchQueue.global().async {
             let randomStrings = self.generateInputStrings()
             for string in randomStrings {
+                
+                //find lucky number using Simulate Annealing
                 guard let configs = Brain(str: string).anneal(),
                     let candiateNumbers = string.luckyNumbers(for: configs),
-                    Brain.cost(numbers: candiateNumbers) == 0 else {
+                    Brain.cost(numbers: candiateNumbers) == 0 else
+                {
+                        //Update TextView for invalid numbers
                         DispatchQueue.main.async {
                             self.textView.appendNormalText(text: "\(string) - No Luck\n")
                         }
                         continue;
                 }
+                
+                //Update TextView for found lucky numbers
                 DispatchQueue.main.async {
                     if Brain.cost(numbers: candiateNumbers) == 0 {
                         self.textView.appendLuckyText(text: "\(string) -> \(candiateNumbers.joined(separator: " "))\n")
