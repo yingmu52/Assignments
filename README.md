@@ -20,4 +20,4 @@ Your function should return:
 1234567 -> 1 2 3 4 5 6 7`
 
 ## Solution
-The basic idea to solve this problem is use Simulated Annealing algorithm to reduce iteration time complexity. The implantation is much elegant and maintainable then another solution I found on the internet. And the performance is very good and fast.
+The basic idea to solve this problem is use Simulated Annealing algorithm to reduce iteration time complexity. The implantation is much elegant and maintainable then any other solution I found on the internet. And the performance is very good and fast.
