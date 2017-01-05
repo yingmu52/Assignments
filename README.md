@@ -1,6 +1,9 @@
 # LottoFinder
-'Winning Ticket!
+This is my solution for a job interview challenge that I was asked in the past. The project is written in Swift. 
 
+## The Problem 
+
+`Winning Ticket!
 Your favorite uncle, Morty, is crazy about the lottery and even crazier about how he picks his “lucky” numbers. And even though his “never fail” strategy has yet to succeed, Uncle Morty doesn't let that get him down.
 
 Every week he searches through the Sunday newspaper to find a string of digits that might be potential lottery picks. But this week the newspaper has moved to a new electronic format, and instead of a comfortable pile of papers, Uncle Morty receives a text file with the stories.
@@ -14,4 +17,7 @@ For example, given the following strings:
 Your function should return:
 
 4938532894754 -> 49 38 53 28 9 47 54
-1234567 -> 1 2 3 4 5 6 7'
+1234567 -> 1 2 3 4 5 6 7`
+
+## Solution
+The basic idea to solve this problem is use Simulated Annealing algorithm to reduce iteration time complexity. The implantation is much elegant and maintainable then another solution I found on the internet. And the performance is very good and fast.
