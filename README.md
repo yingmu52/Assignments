@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/yingmu52/LottoFinder.svg?branch=master)](https://travis-ci.org/yingmu52/LottoFinder)
 # LottoFinder
 'Winning Ticket!
 
