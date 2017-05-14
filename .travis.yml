@@ -1,0 +1,12 @@
+language: swift
+xcode_project: LottoFinder.xcodeproj
+xcode_scheme: LottoFinder
+osx_image: xcode8.3
+xcode_sdk: iphonesimulator
+script: xcodebuild test -project LottoFinder.xcodeproj -scheme LottoFinder -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3'
+
+
+
+
+
+

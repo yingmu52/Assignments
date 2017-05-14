@@ -39,7 +39,7 @@ class BrainTests: XCTestCase {
         
         //pressure test
         var successCount = 0
-        let iterations = 100000
+        let iterations = 10
         for _ in 1...iterations {
             let uniqueNums = Brain.getRandomUniqueNumbers()
             let inputString = uniqueNums.joined(separator: "")

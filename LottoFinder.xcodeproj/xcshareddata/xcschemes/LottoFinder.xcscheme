@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "A07900D31DF8D21E001A3238"
                BuildableName = "LottoFinder.app"
                BlueprintName = "LottoFinder"
+               ReferencedContainer = "container:LottoFinder.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A022228D1DFA846200C99C27"
+               BuildableName = "LottoFinderTests.xctest"
+               BlueprintName = "LottoFinderTests"
                ReferencedContainer = "container:LottoFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,7 +89,7 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
