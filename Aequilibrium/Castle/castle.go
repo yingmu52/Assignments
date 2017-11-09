@@ -5,7 +5,7 @@ func main() {}
 func excavate(land []int) int {
 	landSize := len(land)
 	if landSize <= 1 {
-		return 1 // ???
+		return 1
 	}
 
 	// transform
