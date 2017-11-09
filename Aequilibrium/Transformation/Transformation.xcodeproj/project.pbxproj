@@ -19,6 +19,8 @@
 		A0A17B0B1FB4676D00A679E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A17AE71FB41ED000A679E7 /* ViewController.swift */; };
 		A0A17B0D1FB46BBC00A679E7 /* TransformerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A17B0C1FB46BBC00A679E7 /* TransformerData.swift */; };
 		A0A17B0E1FB46BBC00A679E7 /* TransformerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A17B0C1FB46BBC00A679E7 /* TransformerData.swift */; };
+		A0A17B121FB4940400A679E7 /* Allegiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A17B111FB4940400A679E7 /* Allegiance.swift */; };
+		A0A17B131FB4940400A679E7 /* Allegiance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A17B111FB4940400A679E7 /* Allegiance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		A0A17B051FB4356F00A679E7 /* Transformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
 		A0A17B081FB460A300A679E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A17B0C1FB46BBC00A679E7 /* TransformerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerData.swift; sourceTree = "<group>"; };
+		A0A17B111FB4940400A679E7 /* Allegiance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allegiance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 			children = (
 				A0A17B0C1FB46BBC00A679E7 /* TransformerData.swift */,
 				A0A17B051FB4356F00A679E7 /* Transformer.swift */,
+				A0A17B111FB4940400A679E7 /* Allegiance.swift */,
 				A0A17AE71FB41ED000A679E7 /* ViewController.swift */,
 				A0A17AE91FB41ED000A679E7 /* Main.storyboard */,
 				A0A17AEE1FB41ED000A679E7 /* LaunchScreen.storyboard */,
@@ -213,6 +217,7 @@
 				A0A17AE81FB41ED000A679E7 /* ViewController.swift in Sources */,
 				A0A17B061FB4356F00A679E7 /* Transformer.swift in Sources */,
 				A0A17AE61FB41ED000A679E7 /* AppDelegate.swift in Sources */,
+				A0A17B121FB4940400A679E7 /* Allegiance.swift in Sources */,
 				A0A17B0D1FB46BBC00A679E7 /* TransformerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +229,7 @@
 				A0A17B0B1FB4676D00A679E7 /* ViewController.swift in Sources */,
 				A0A17AFB1FB41ED000A679E7 /* TransformationTests.swift in Sources */,
 				A0A17B071FB4356F00A679E7 /* Transformer.swift in Sources */,
+				A0A17B131FB4940400A679E7 /* Allegiance.swift in Sources */,
 				A0A17B0E1FB46BBC00A679E7 /* TransformerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,7 @@ struct Transformer {
   var strength, intelligence, speed, endurance, rank, courage, firepower, skill: Int
   var name: String
   var type: Allegiance
+  private let rawSpec: [Int]
 
   init?(_ info: [String], _ spec: [Int]) {
     if spec.count != 8 { return nil }
@@ -29,6 +30,7 @@ struct Transformer {
     self.courage = spec[5]
     self.firepower = spec[6]
     self.skill = spec[7]
+    self.rawSpec = spec
   }
 
   var overallRating: Int {
@@ -69,39 +71,25 @@ struct Transformer {
   }
 }
 
-enum Allegiance: String {
-  case Autobots
-  case Decepticons
-
-  init?(_ letter: String?) {
-    guard let l = letter else { return nil }
-    switch l {
-    case "A":
-      self = .Autobots
-    case "D":
-      self = .Decepticons
-    default:
-      return nil
-    }
-  }
-}
-
-extension Array where Iterator.Element == Transformer {
+extension Sequence where Iterator.Element == Transformer {
   var sortedByRank: [Transformer] {
     return self.sorted { $0.rank >= $1.rank }
   }
 
-  func battle(opponents: [Transformer]) -> (Int, [Transformer], [Transformer]) { // battles, winner, loser
+  // return tuple (battles, winner, loser) for better testability
+  func battle(opponents: [Transformer]) -> (Int, [Transformer], [Transformer]) {
     var (t1, t2) = (self.sortedByRank, opponents.sortedByRank) // sort by rank
     var (s1, s2) = (0, 0) // victory scores 1
     let (len1, len2) = (self.sortedByRank.count, opponents.count)
     let nBattles = len1 >= len2 ? len2 : len1
 
-    while t1.count != 0 && t2.count != 0 {
-      guard let result = t1.first!.battle(opponent: t2.first!) else {
-        // tie, both should be destroyed
+    var i = 1
+    while i <= nBattles {
+      guard let tt1 = t1.first, let tt2 = t2.first else { break }
+      guard let result = tt1.battle(opponent: tt2) else {
         t1.removeFirst()
         t2.removeFirst()
+        i = i + 1
         continue
       }
       if result {
@@ -111,10 +99,35 @@ extension Array where Iterator.Element == Transformer {
         s2 = s2 + 1
         t1.removeFirst()
       }
+      i = i + 1
     }
 
     let victor = s1 >= s2 ? t1 : t2
     let losers = s1 >= s2 ? t2 : t1
     return (nBattles, victor, losers)
   }
+
+  // this function is for UI
+  func battle(_ opponents: [Transformer]) -> String {
+    var summary = String()
+    let r = self.battle(opponents: opponents)
+    summary.append("\(r.0) battles \n\n")
+    summary.append("Winning team (\(r.1.first?.type.description ?? "")): ")
+    summary.append(r.1.map { $0.name }.joined(separator: ", ") + "\n\n")
+    if r.2.count == 0 {
+      summary.append("No Survivors from the losing team (\(r.1.first!.type.oppositeDescription))")
+    } else {
+      summary.append("Survivors from the losing team (\(r.2.first!.type.description)): ")
+      summary.append(r.2.map {$0.name }.joined(separator: ", ") + "\n")
+    }
+    return summary
+  }
 }
+
+extension Transformer: CustomStringConvertible {
+  var description: String {
+    return "\(self.name),\(self.type.rawValue)," + self.rawSpec.map { String($0) }.joined(separator: ",")
+  }
+}
+
+

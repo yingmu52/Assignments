@@ -33,4 +33,27 @@ struct TransformerData {
     (["Snapdragon","D"],         [10,9,9,8,6,7,7,7]),
     (["Thrust","D"],             [8,6,9,6,5,4,8,7])
   ]
+
+  static func randomeData() -> ([Transformer], [Transformer]) {
+    // pick n from autobots, k from deceptions and battle!
+    let n = self.randomInt(max: 20)
+    let k = self.randomInt(max: 20)
+    var autobots = [Transformer]()
+    var decepticons = [Transformer]()
+    for _ in 1...n {
+      let index = self.randomInt(max: TransformerData.autobots.count - 1)
+      let data = TransformerData.autobots[index]
+      if let t = Transformer(data.0, data.1) { autobots += [t] }
+    }
+    for _ in 1...k {
+      let index = self.randomInt(max: TransformerData.deceptions.count - 1)
+      let data = TransformerData.deceptions[index]
+      if let t = Transformer(data.0, data.1) { decepticons += [t] }
+    }
+    return (autobots, decepticons)
+  }
+
+  static func randomInt(max: Int) -> Int { // 1...max
+    return Int(arc4random_uniform(UInt32(max))) + 1
+  }
 }

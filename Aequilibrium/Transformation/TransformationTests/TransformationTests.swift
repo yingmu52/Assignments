@@ -76,7 +76,6 @@ class TransformationTests: XCTestCase {
     XCTAssertEqual(n, 1)
     XCTAssertEqual(winner, [t1])
     XCTAssertEqual(loser, [t3])
-
   }
 }
 
