@@ -1,29 +1,21 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
-
 
 public func solution(_ S : inout String) -> Int {
   var stack = [Int]()
   let operations = S.components(separatedBy: " ")
   for element in operations {
-    print(stack)
     if let n = Int(element) {
       stack.append(n)
     } else {
       switch element {
       case "POP":
-        if stack.count >= 1 {
-          stack.removeLast()
-        } else {
-          return -1
-        }
+        // make sure at least 1 to pop
+        guard let _ = stack.last else { return -1 }
+        stack.removeLast()
       case "DUP":
-        if stack.count >= 1 {
-          stack.append(stack.last!)
-        } else {
-          return -1
-        }
+        // make sure at least 1 to duplicate
+        guard let last = stack.last else { return -1  }
+        stack.append(last)
       case "+":
         if stack.count < 2 {
           return -1
@@ -32,7 +24,7 @@ public func solution(_ S : inout String) -> Int {
           if add < Int(pow(Double(2), Double(20))) - 1 {
             stack.append(add)
           } else {
-            return -1
+            return -1 // overflow
           }
         }
       case "-":
@@ -43,19 +35,19 @@ public func solution(_ S : inout String) -> Int {
           if sub > 0 {
             stack.append(sub)
           } else {
-            return -1
+            return -1 // underflow
           }
         }
-      default: // invalid operation
+      default:
         return -1
       }
     }
-  }
+  } // end of for loop
   return stack.count > 0 ? stack.last! : -1
 }
 
 var s = "13 DUP 4 POP 5 DUP + DUP + -"
-print("Input:", s, "Output:", solution(&s)) // 7
-
 var s1 = "5 3 + -"
+
+print("Input:", s, "Output:", solution(&s)) // 7
 print("Input:", s1, "Output:", solution(&s1)) // -1 error
