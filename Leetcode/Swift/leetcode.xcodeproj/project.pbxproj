@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
-		OBJ_25 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
+		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		OBJ_31 /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ClimbStairs.swift */; };
 		OBJ_32 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* HammingDistance.swift */; };
 		OBJ_33 /* LeftLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LeftLeavesSum.swift */; };
@@ -34,6 +35,7 @@
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacter.swift; sourceTree = "<group>"; };
 		OBJ_10 /* LeftLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftLeavesSum.swift; sourceTree = "<group>"; };
 		OBJ_11 /* MatrixDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixDistance.swift; sourceTree = "<group>"; };
 		OBJ_12 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
@@ -41,7 +43,6 @@
 		OBJ_14 /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		OBJ_16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 		OBJ_9 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		"leetcode::leetcode::Product" /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +87,6 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				A0AE16B51FBD685E002D14EF /* LeetcodeTests */,
 				OBJ_18 /* Products */,
@@ -96,6 +96,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */,
 				OBJ_8 /* ClimbStairs.swift */,
 				OBJ_9 /* HammingDistance.swift */,
 				OBJ_10 /* LeftLeavesSum.swift */,
@@ -214,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
+				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_25 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +237,7 @@
 				OBJ_35 /* MaxProduct.swift in Sources */,
 				OBJ_36 /* SearchInsertPosition.swift in Sources */,
 				OBJ_37 /* TrappingRainWater.swift in Sources */,
+				A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */,
 				OBJ_38 /* Util.swift in Sources */,
 				OBJ_39 /* main.swift in Sources */,
 			);

@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A0AE16B31FBD685E002D14EF"
+               BuildableName = "LeetcodeTests.xctest"
+               BlueprintName = "LeetcodeTests"
+               ReferencedContainer = "container:leetcode.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "leetcode::leetcode"
+            BuildableName = "leetcode"
+            BlueprintName = "leetcode"
+            ReferencedContainer = "container:leetcode.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -63,6 +82,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "leetcode::leetcode"
+            BuildableName = "leetcode"
+            BlueprintName = "leetcode"
+            ReferencedContainer = "container:leetcode.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
