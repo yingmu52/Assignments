@@ -54,3 +54,7 @@ func TestValidParentheses(t *testing.T) {
 	assert.Equal(t, true, isValid("()[]{}"))
 	assert.Equal(t, false, isValid("([)"))
 }
+
+func TestLHS(t *testing.T) {
+	assert.Equal(t, 5, findLHS([]int{1, 3, 2, 2, 5, 2, 3, 7}))
+}
