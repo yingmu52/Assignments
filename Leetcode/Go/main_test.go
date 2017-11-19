@@ -49,3 +49,8 @@ func TestMinStack(t *testing.T) {
 	assert.Equal(t, 0, stack.Top())
 	assert.Equal(t, -2, stack.GetMin())
 }
+
+func TestValidParentheses(t *testing.T) {
+	assert.Equal(t, true, isValid("()[]{}"))
+	assert.Equal(t, false, isValid("([)"))
+}
