@@ -37,3 +37,15 @@ func TestLongestCIS(t *testing.T) {
 	assert.Equal(t, 1, findLengthOfLCIS([]int{2, 2, 2, 2, 2}))
 	assert.Equal(t, 4, findLengthOfLCIS([]int{1, 3, 5, 7}))
 }
+
+func TestMinStack(t *testing.T) {
+	// ["MinStack","push","push","push","getMin","pop","top","getMin"]
+	stack := Constructor()
+	stack.Push(-2)
+	stack.Push(0)
+	stack.Push(-3)
+	assert.Equal(t, -3, stack.GetMin())
+	stack.Pop()
+	assert.Equal(t, 0, stack.Top())
+	assert.Equal(t, -2, stack.GetMin())
+}
