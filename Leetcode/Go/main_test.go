@@ -31,3 +31,9 @@ func TestThirdMaxNum(t *testing.T) {
 	assert.Equal(t, thirdMax([]int{1, 2, 3}), 1)
 	assert.Equal(t, thirdMax([]int{2, 2, 3, 1}), 1)
 }
+
+func TestLongestCIS(t *testing.T) {
+	assert.Equal(t, 3, findLengthOfLCIS([]int{1, 3, 5, 4, 7}))
+	assert.Equal(t, 1, findLengthOfLCIS([]int{2, 2, 2, 2, 2}))
+	assert.Equal(t, 4, findLengthOfLCIS([]int{1, 3, 5, 7}))
+}
