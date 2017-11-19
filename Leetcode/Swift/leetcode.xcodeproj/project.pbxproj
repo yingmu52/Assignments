@@ -16,6 +16,11 @@
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
+		A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
+		A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
+		A0E798BD1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
+		A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LeftLeavesSum.swift */; };
+		A0E798BF1FC1063800A63395 /* LeftLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LeftLeavesSum.swift */; };
 		OBJ_31 /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ClimbStairs.swift */; };
 		OBJ_32 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* HammingDistance.swift */; };
 		OBJ_33 /* LeftLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LeftLeavesSum.swift */; };
@@ -44,6 +49,7 @@
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacter.swift; sourceTree = "<group>"; };
+		A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		OBJ_10 /* LeftLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftLeavesSum.swift; sourceTree = "<group>"; };
 		OBJ_11 /* MatrixDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixDistance.swift; sourceTree = "<group>"; };
 		OBJ_12 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				OBJ_16 /* main.swift */,
 				A019E1621FBE808C00BE9B43 /* KDiffPairs.swift */,
 				A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */,
+				A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -227,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E798BF1FC1063800A63395 /* LeftLeavesSum.swift in Sources */,
+				A0E798BD1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A019E1651FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
@@ -238,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
+				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
 				A019E1631FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +259,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_31 /* ClimbStairs.swift in Sources */,
+				A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				OBJ_32 /* HammingDistance.swift in Sources */,
 				A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				OBJ_33 /* LeftLeavesSum.swift in Sources */,
