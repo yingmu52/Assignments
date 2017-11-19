@@ -1,14 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(maxProfit([]int{1, 3, 2, 8, 4, 9}, 2), 8)
-	fmt.Println(maxProfit([]int{3, 1, 1, 1, 1, 1, 1, 1, 100, 1, 1}, 0), 99)
-}
-
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
 func maxProfit(prices []int, fee int) int {
 	max := func(a, b int) int {
@@ -22,9 +13,7 @@ func maxProfit(prices []int, fee int) int {
 	for i := 1; i < len(prices); i++ {
 		cash = max(cash, hold+prices[i]-fee)
 		hold = max(hold, cash-prices[i])
-		fmt.Println(i, cash, hold)
 	}
-	fmt.Println("end")
 	return cash
 }
 

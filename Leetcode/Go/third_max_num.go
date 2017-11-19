@@ -1,17 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(thirdMax([]int{1, 2, 3}), 1)
-	fmt.Println(thirdMax([]int{2, 2, 3, 1}), 1)
-}
-
 func thirdMax(nums []int) int {
 	nums = createSet(nums)
-	fmt.Println(nums)
 	if len(nums) >= 3 {
 		for range []int{1, 2} {
 			_, ind := maxIn(nums)

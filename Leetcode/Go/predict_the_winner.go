@@ -1,12 +1,6 @@
 package main
 
-import "fmt"
-
-func main() {
-	//https://leetcode.com/problems/predict-the-winner/description/
-	fmt.Println(predictTheWinner([]int{1, 5, 2}), false)
-	fmt.Println(predictTheWinner([]int{1, 5, 233, 7}), true)
-}
+//https://leetcode.com/problems/predict-the-winner/description/
 
 // return true if player 1 can win
 func predictTheWinner(nums []int) bool {
@@ -26,11 +20,4 @@ func pick(nums []int, l int, r int, memo map[string]int) int {
 	m := max(a, b)
 	memo[string(l)+string(r)] = m
 	return m
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

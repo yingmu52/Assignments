@@ -1,16 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
 // https://leetcode.com/problems/longest-palindromic-subsequence/description/
-
-func main() {
-	fmt.Println(longestPalindromeSubseq("bbbab"), 4)
-	fmt.Println(longestPalindromeSubseq("cbbd"), 2)
-	fmt.Println(longestPalindromeSubseq("aabaa"), 5)
-}
 
 func longestPalindromeSubseq(s string) int {
 	memo := map[string]int{} // index i, j : count
@@ -39,11 +29,4 @@ func lps(s string, i, j int, memo map[string]int) int {
 	}
 	memo[string(i)+string(j)] = result
 	return result
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
