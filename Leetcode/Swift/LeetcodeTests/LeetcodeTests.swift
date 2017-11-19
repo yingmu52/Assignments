@@ -27,4 +27,10 @@ class LeetcodeTests: XCTestCase {
     print(actual)
     XCTAssertTrue(actual.count == 2)
   }
+
+  func testValidAnagram() {
+    XCTAssertEqual(ValidAnagram.isAnagram("anagram", "nagaram"), true)
+    XCTAssertEqual(ValidAnagram.isAnagram("rat", "car"), false)
+    XCTAssertEqual(ValidAnagram.isAnagram("a", "ab"), false)
+  }
 }
