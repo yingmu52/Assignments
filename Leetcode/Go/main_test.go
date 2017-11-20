@@ -58,3 +58,8 @@ func TestValidParentheses(t *testing.T) {
 func TestLHS(t *testing.T) {
 	assert.Equal(t, 5, findLHS([]int{1, 3, 2, 2, 5, 2, 3, 7}))
 }
+
+func TestMaxAverageSubarray(t *testing.T) {
+	assert.Equal(t, 12.75, findMaxAverage([]int{1, 12, -5, -6, 50, 3}, 4))
+	assert.Equal(t, float64(4), findMaxAverage([]int{0, 4, 0, 3, 2}, 1))
+}
