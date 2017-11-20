@@ -63,3 +63,17 @@ func TestMaxAverageSubarray(t *testing.T) {
 	assert.Equal(t, 12.75, findMaxAverage([]int{1, 12, -5, -6, 50, 3}, 4))
 	assert.Equal(t, float64(4), findMaxAverage([]int{0, 4, 0, 3, 2}, 1))
 }
+
+func TestMinIndexSumTwoArray(t *testing.T) {
+	inst1 := findRestaurant(
+		[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"},
+		[]string{"KFC", "Shogun", "Burger King"},
+	)
+	assert.Equal(t, []string{"Shogun"}, inst1)
+
+	inst2 := findRestaurant(
+		[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"},
+		[]string{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"},
+	)
+	assert.Equal(t, []string{"Shogun"}, inst2)
+}
