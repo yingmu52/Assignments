@@ -84,3 +84,13 @@ func TestMaxProductThreeNumber(t *testing.T) {
 	assert.Equal(t, 6, maximumProduct([]int{1, 2, 3}))
 	assert.Equal(t, -6, maximumProduct([]int{-1, -2, -3}))
 }
+
+func TestIslandPerimeter(t *testing.T) {
+	m := [][]int{
+		{0, 1, 0, 0},
+		{1, 1, 1, 0},
+		{0, 1, 0, 0},
+		{1, 1, 0, 0},
+	}
+	assert.Equal(t, 16, islandPerimeter(m))
+}
