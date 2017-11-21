@@ -33,4 +33,20 @@ class LeetcodeTests: XCTestCase {
     XCTAssertEqual(ValidAnagram.isAnagram("rat", "car"), false)
     XCTAssertEqual(ValidAnagram.isAnagram("a", "ab"), false)
   }
+
+  func testDiagonalTraverse() {
+    let m = [
+      [ 1, 2, 3 ],
+      [ 4, 5, 6 ],
+      [ 7, 8, 9 ]
+    ]
+    let result = DiagonalTraverse.findDiagonalOrder(m)
+    XCTAssertTrue(result.containsSameElements(as: [1,2,3,4,5,6,7,8,9]))
+  }
+}
+
+extension Array where Element: Comparable {
+  func containsSameElements(as other: [Element]) -> Bool {
+    return self.count == other.count && self.sorted() == other.sorted()
+  }
 }
