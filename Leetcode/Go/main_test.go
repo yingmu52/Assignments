@@ -77,3 +77,10 @@ func TestMinIndexSumTwoArray(t *testing.T) {
 	)
 	assert.Equal(t, []string{"Shogun"}, inst2)
 }
+
+func TestMaxProductThreeNumber(t *testing.T) {
+	assert.Equal(t, 378, maximumProduct([]int{7, 0, 6, 4, 9, 6}))
+	assert.Equal(t, 24, maximumProduct([]int{1, 2, 3, 4}))
+	assert.Equal(t, 6, maximumProduct([]int{1, 2, 3}))
+	assert.Equal(t, -6, maximumProduct([]int{-1, -2, -3}))
+}
