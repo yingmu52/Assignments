@@ -22,6 +22,9 @@
 		A07A79A51FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
 		A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
 		A07A79A71FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
+		A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
+		A07A79AA1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
+		A07A79AB1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -60,6 +63,7 @@
 		A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 		A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
 		A07A79A41FC5279F00040CF6 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
+		A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNumberDisappearedInArray.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */,
 				A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */,
 				A07A79A41FC5279F00040CF6 /* UniquePaths.swift */,
+				A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -256,6 +261,7 @@
 			files = (
 				A0E798BF1FC1063800A63395 /* LeftLeavesSum.swift in Sources */,
 				A0E798BD1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
+				A07A79AB1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A019E1651FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A0205FD21FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
@@ -271,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0E798C11FC150B100A63395 /* Valid Anagram.swift in Sources */,
@@ -286,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A07A79AA1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A06EDDAF1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				OBJ_31 /* ClimbStairs.swift in Sources */,
 				A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */,

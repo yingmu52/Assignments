@@ -49,6 +49,11 @@ class LeetcodeTests: XCTestCase {
     XCTAssertEqual(UniquePaths.uniquePaths(25, 9), 10518300)
     XCTAssertEqual(UniquePaths.uniquePaths(23,12), 193536720)
   }
+
+  func testDisappearedNumber() {
+   let result = AllNumberDisappearedInArray.findDisappearedNumbers([4,3,2,7,8,2,3,1])
+    XCTAssertTrue(result.containsSameElements(as: [5,6]))
+  }
 }
 
 extension Array where Element: Comparable {
