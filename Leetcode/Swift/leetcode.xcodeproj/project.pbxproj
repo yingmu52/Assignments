@@ -19,6 +19,9 @@
 		A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
 		A06EDDAF1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
 		A06EDDB01FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
+		A07A79A51FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
+		A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
+		A07A79A71FC5279F00040CF6 /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A41FC5279F00040CF6 /* UniquePaths.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -56,6 +59,7 @@
 		A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBottomLeftTreeValue.swift; sourceTree = "<group>"; };
 		A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 		A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
+		A07A79A41FC5279F00040CF6 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				A0E798C01FC150B000A63395 /* Valid Anagram.swift */,
 				A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */,
 				A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */,
+				A07A79A41FC5279F00040CF6 /* UniquePaths.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -256,6 +261,7 @@
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
+				A07A79A71FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				A0E798C31FC150B100A63395 /* Valid Anagram.swift in Sources */,
 				A06EDDB01FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 			);
@@ -268,6 +274,7 @@
 				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0E798C11FC150B100A63395 /* Valid Anagram.swift in Sources */,
+				A07A79A51FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
 				A0205FD01FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
@@ -288,6 +295,7 @@
 				A019E1641FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				OBJ_34 /* MatrixDistance.swift in Sources */,
 				OBJ_35 /* MaxProduct.swift in Sources */,
+				A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				OBJ_36 /* SearchInsertPosition.swift in Sources */,
 				OBJ_37 /* TrappingRainWater.swift in Sources */,
 				A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */,

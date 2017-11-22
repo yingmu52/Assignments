@@ -43,6 +43,12 @@ class LeetcodeTests: XCTestCase {
     let result = DiagonalTraverse.findDiagonalOrder(m)
     XCTAssertTrue(result.containsSameElements(as: [1,2,3,4,5,6,7,8,9]))
   }
+
+  func testUniquePaths() {
+    XCTAssertEqual(UniquePaths.uniquePaths(3, 3), 6)
+    XCTAssertEqual(UniquePaths.uniquePaths(25, 9), 10518300)
+    XCTAssertEqual(UniquePaths.uniquePaths(23,12), 193536720)
+  }
 }
 
 extension Array where Element: Comparable {
