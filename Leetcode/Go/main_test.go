@@ -98,3 +98,7 @@ func TestIslandPerimeter(t *testing.T) {
 func TestTwoSum(t *testing.T) {
 	assert.Equal(t, []int{1, 2}, twoSum([]int{3, 2, 4}, 6))
 }
+
+func TestReverseString(t *testing.T) {
+	assert.Equal(t, "olleh", reverseString("hello"))
+}
