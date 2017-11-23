@@ -59,6 +59,10 @@ class LeetcodeTests: XCTestCase {
     let expect = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
     XCTAssertTrue(FizzBuzz.fizzBuzz(15).containsSameElements(as: expect))
   }
+
+  func testSigleNumber() {
+    XCTAssertEqual(singleNumber([1,2,3,2,3,1,4,5,5,5,5]), 4)
+  }
 }
 
 extension Array where Element: Comparable {
