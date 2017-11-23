@@ -54,6 +54,11 @@ class LeetcodeTests: XCTestCase {
    let result = AllNumberDisappearedInArray.findDisappearedNumbers([4,3,2,7,8,2,3,1])
     XCTAssertTrue(result.containsSameElements(as: [5,6]))
   }
+
+  func testFizzBuzz() {
+    let expect = ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]
+    XCTAssertTrue(FizzBuzz.fizzBuzz(15).containsSameElements(as: expect))
+  }
 }
 
 extension Array where Element: Comparable {

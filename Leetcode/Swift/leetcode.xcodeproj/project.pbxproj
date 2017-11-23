@@ -25,6 +25,9 @@
 		A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
 		A07A79AA1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
 		A07A79AB1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */; };
+		A07A79AD1FC674B000040CF6 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */; };
+		A07A79AE1FC674B000040CF6 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */; };
+		A07A79AF1FC674B000040CF6 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -64,6 +67,7 @@
 		A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
 		A07A79A41FC5279F00040CF6 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNumberDisappearedInArray.swift; sourceTree = "<group>"; };
+		A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */,
 				A07A79A41FC5279F00040CF6 /* UniquePaths.swift */,
 				A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */,
+				A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -270,6 +275,7 @@
 				A07A79A71FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				A0E798C31FC150B100A63395 /* Valid Anagram.swift in Sources */,
 				A06EDDB01FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
+				A07A79AF1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +288,7 @@
 				A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0E798C11FC150B100A63395 /* Valid Anagram.swift in Sources */,
 				A07A79A51FC5279F00040CF6 /* UniquePaths.swift in Sources */,
+				A07A79AD1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
 				A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
 				A0205FD01FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
@@ -301,6 +308,7 @@
 				A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				OBJ_33 /* LeftLeavesSum.swift in Sources */,
 				A019E1641FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
+				A07A79AE1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
 				OBJ_34 /* MatrixDistance.swift in Sources */,
 				OBJ_35 /* MaxProduct.swift in Sources */,
 				A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */,
