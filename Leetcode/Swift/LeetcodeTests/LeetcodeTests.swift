@@ -69,6 +69,11 @@ class LeetcodeTests: XCTestCase {
     moveZeroes(&nums)
     XCTAssertTrue(nums.containsSameElements(as: [1,3,12,0,0]))
   }
+
+  func testMajorElement() {
+    XCTAssertEqual(majorityElement([6,5,5]), 5)
+    XCTAssertEqual(majorityElement([8,8,7,7,7]), 7)
+  }
 }
 
 extension Array where Element: Comparable {

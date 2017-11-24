@@ -13,6 +13,9 @@
 		A01B9D831FC7B67D00055697 /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D821FC7B67D00055697 /* MoveZeros.swift */; };
 		A01B9D841FC7B67D00055697 /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D821FC7B67D00055697 /* MoveZeros.swift */; };
 		A01B9D851FC7B67D00055697 /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D821FC7B67D00055697 /* MoveZeros.swift */; };
+		A01B9D871FC7BF3100055697 /* MajorElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D861FC7BF3100055697 /* MajorElement.swift */; };
+		A01B9D881FC7BF3100055697 /* MajorElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D861FC7BF3100055697 /* MajorElement.swift */; };
+		A01B9D891FC7BF3100055697 /* MajorElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B9D861FC7BF3100055697 /* MajorElement.swift */; };
 		A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */; };
 		A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */; };
 		A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */; };
@@ -69,6 +72,7 @@
 /* Begin PBXFileReference section */
 		A019E1621FBE808C00BE9B43 /* KDiffPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDiffPairs.swift; sourceTree = "<group>"; };
 		A01B9D821FC7B67D00055697 /* MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeros.swift; sourceTree = "<group>"; };
+		A01B9D861FC7BF3100055697 /* MajorElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorElement.swift; sourceTree = "<group>"; };
 		A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBottomLeftTreeValue.swift; sourceTree = "<group>"; };
 		A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 		A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 				A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */,
 				A07A79B01FC67D5400040CF6 /* SingleNumber.swift */,
 				A01B9D821FC7B67D00055697 /* MoveZeros.swift */,
+				A01B9D861FC7BF3100055697 /* MajorElement.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -282,6 +287,7 @@
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
+				A01B9D891FC7BF3100055697 /* MajorElement.swift in Sources */,
 				A01B9D851FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A07A79B31FC67D5400040CF6 /* SingleNumber.swift in Sources */,
 				A07A79A71FC5279F00040CF6 /* UniquePaths.swift in Sources */,
@@ -295,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A01B9D871FC7BF3100055697 /* MajorElement.swift in Sources */,
 				A01B9D831FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
@@ -318,6 +325,7 @@
 				A06EDDAF1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				OBJ_31 /* ClimbStairs.swift in Sources */,
 				A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
+				A01B9D881FC7BF3100055697 /* MajorElement.swift in Sources */,
 				OBJ_32 /* HammingDistance.swift in Sources */,
 				A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				OBJ_33 /* LeftLeavesSum.swift in Sources */,
