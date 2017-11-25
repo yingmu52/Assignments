@@ -79,6 +79,11 @@ class LeetcodeTests: XCTestCase {
     let result = findWords(["Hello", "Alaska", "Dad", "Peace"])
     XCTAssertTrue(result.containsSameElements(as: ["Alaska", "Dad"]))
   }
+
+  func testSelfDividingNumbers() {
+    let result = selfDividingNumbers(1, 22)
+    XCTAssertTrue(result.containsSameElements(as: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]))
+  }
 }
 
 extension Array where Element: Comparable {
