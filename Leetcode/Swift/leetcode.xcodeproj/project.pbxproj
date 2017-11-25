@@ -43,6 +43,9 @@
 		A09461291FC9137C00AEA378 /* SelfDividingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */; };
 		A094612A1FC9138000AEA378 /* SelfDividingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */; };
 		A094612B1FC9138000AEA378 /* SelfDividingNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */; };
+		A094612D1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
+		A094612E1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
+		A094612F1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -88,6 +91,7 @@
 		A07A79B01FC67D5400040CF6 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		A09461241FC8FF7700AEA378 /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
 		A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDividingNumbers.swift; sourceTree = "<group>"; };
+		A094612C1FC930D000AEA378 /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 				OBJ_14 /* TrappingRainWater.swift */,
 				OBJ_15 /* Util.swift */,
 				OBJ_16 /* main.swift */,
+				A094612C1FC930D000AEA378 /* HouseRobber.swift */,
 				A019E1621FBE808C00BE9B43 /* KDiffPairs.swift */,
 				A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */,
 				A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */,
@@ -299,6 +304,7 @@
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
 				A01B9D891FC7BF3100055697 /* MajorElement.swift in Sources */,
+				A094612F1FC930D000AEA378 /* HouseRobber.swift in Sources */,
 				A094612B1FC9138000AEA378 /* SelfDividingNumbers.swift in Sources */,
 				A01B9D851FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A07A79B31FC67D5400040CF6 /* SingleNumber.swift in Sources */,
@@ -325,6 +331,7 @@
 				A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
 				A07A79B11FC67D5400040CF6 /* SingleNumber.swift in Sources */,
+				A094612D1FC930D000AEA378 /* HouseRobber.swift in Sources */,
 				A09461291FC9137C00AEA378 /* SelfDividingNumbers.swift in Sources */,
 				A0205FD01FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
 				A019E1631FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
@@ -347,6 +354,7 @@
 				A09461261FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A019E1641FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A07A79AE1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
+				A094612E1FC930D000AEA378 /* HouseRobber.swift in Sources */,
 				OBJ_34 /* MatrixDistance.swift in Sources */,
 				OBJ_35 /* MaxProduct.swift in Sources */,
 				A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */,

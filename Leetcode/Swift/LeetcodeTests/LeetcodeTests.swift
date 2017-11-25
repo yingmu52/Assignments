@@ -84,6 +84,12 @@ class LeetcodeTests: XCTestCase {
     let result = selfDividingNumbers(1, 22)
     XCTAssertTrue(result.containsSameElements(as: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]))
   }
+
+  func testHouseRobber() {
+    XCTAssertEqual(rob([2,1,1,2]), 4)
+    XCTAssertEqual(rob([1,3,2]), 3)
+  }
+  
 }
 
 extension Array where Element: Comparable {
