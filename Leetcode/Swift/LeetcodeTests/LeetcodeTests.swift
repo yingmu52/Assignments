@@ -74,6 +74,11 @@ class LeetcodeTests: XCTestCase {
     XCTAssertEqual(majorityElement([6,5,5]), 5)
     XCTAssertEqual(majorityElement([8,8,7,7,7]), 7)
   }
+
+  func testKeyboardRow() {
+    let result = findWords(["Hello", "Alaska", "Dad", "Peace"])
+    XCTAssertTrue(result.containsSameElements(as: ["Alaska", "Dad"]))
+  }
 }
 
 extension Array where Element: Comparable {

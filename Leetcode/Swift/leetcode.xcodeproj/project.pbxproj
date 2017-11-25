@@ -37,6 +37,9 @@
 		A07A79B11FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
 		A07A79B21FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
 		A07A79B31FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
+		A09461251FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
+		A09461261FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
+		A09461271FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -80,6 +83,7 @@
 		A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNumberDisappearedInArray.swift; sourceTree = "<group>"; };
 		A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		A07A79B01FC67D5400040CF6 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		A09461241FC8FF7700AEA378 /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 				A07A79B01FC67D5400040CF6 /* SingleNumber.swift */,
 				A01B9D821FC7B67D00055697 /* MoveZeros.swift */,
 				A01B9D861FC7BF3100055697 /* MajorElement.swift */,
+				A09461241FC8FF7700AEA378 /* KeyboardRow.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -284,6 +289,7 @@
 				A07A79AB1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A019E1651FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A0205FD21FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
+				A09461271FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */,
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
@@ -302,6 +308,7 @@
 			buildActionMask = 0;
 			files = (
 				A01B9D871FC7BF3100055697 /* MajorElement.swift in Sources */,
+				A09461251FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A01B9D831FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
@@ -329,6 +336,7 @@
 				OBJ_32 /* HammingDistance.swift in Sources */,
 				A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				OBJ_33 /* LeftLeavesSum.swift in Sources */,
+				A09461261FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A019E1641FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A07A79AE1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
 				OBJ_34 /* MatrixDistance.swift in Sources */,
