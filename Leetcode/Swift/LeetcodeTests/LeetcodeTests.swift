@@ -89,6 +89,10 @@ class LeetcodeTests: XCTestCase {
     XCTAssertEqual(rob([2,1,1,2]), 4)
     XCTAssertEqual(rob([1,3,2]), 3)
   }
+
+  func testBestTimeToBuyAndSellStock() {
+    XCTAssertEqual(maxProfit([7,1,5,3,6,4]), 5)
+  }
   
 }
 
