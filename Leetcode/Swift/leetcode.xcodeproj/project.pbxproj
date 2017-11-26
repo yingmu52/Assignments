@@ -37,6 +37,8 @@
 		A07A79B11FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
 		A07A79B21FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
 		A07A79B31FC67D5400040CF6 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A79B01FC67D5400040CF6 /* SingleNumber.swift */; };
+		A082B92F1FCA5E7400054232 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082B92E1FCA5E7400054232 /* ReverseLinkedList.swift */; };
+		A082B9301FCA5E7400054232 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082B92E1FCA5E7400054232 /* ReverseLinkedList.swift */; };
 		A09461251FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
 		A09461261FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
 		A09461271FC8FF7700AEA378 /* KeyboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09461241FC8FF7700AEA378 /* KeyboardRow.swift */; };
@@ -89,6 +91,7 @@
 		A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNumberDisappearedInArray.swift; sourceTree = "<group>"; };
 		A07A79AC1FC674B000040CF6 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		A07A79B01FC67D5400040CF6 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		A082B92E1FCA5E7400054232 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		A09461241FC8FF7700AEA378 /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
 		A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDividingNumbers.swift; sourceTree = "<group>"; };
 		A094612C1FC930D000AEA378 /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
@@ -168,6 +171,7 @@
 				OBJ_14 /* TrappingRainWater.swift */,
 				OBJ_15 /* Util.swift */,
 				OBJ_16 /* main.swift */,
+				A082B92E1FCA5E7400054232 /* ReverseLinkedList.swift */,
 				A094612C1FC930D000AEA378 /* HouseRobber.swift */,
 				A019E1621FBE808C00BE9B43 /* KDiffPairs.swift */,
 				A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */,
@@ -332,6 +336,7 @@
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
 				A07A79B11FC67D5400040CF6 /* SingleNumber.swift in Sources */,
 				A094612D1FC930D000AEA378 /* HouseRobber.swift in Sources */,
+				A082B92F1FCA5E7400054232 /* ReverseLinkedList.swift in Sources */,
 				A09461291FC9137C00AEA378 /* SelfDividingNumbers.swift in Sources */,
 				A0205FD01FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
 				A019E1631FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
@@ -351,6 +356,7 @@
 				OBJ_32 /* HammingDistance.swift in Sources */,
 				A01C1EF71FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				OBJ_33 /* LeftLeavesSum.swift in Sources */,
+				A082B9301FCA5E7400054232 /* ReverseLinkedList.swift in Sources */,
 				A09461261FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A019E1641FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
 				A07A79AE1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
