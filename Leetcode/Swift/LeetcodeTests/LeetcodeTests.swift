@@ -93,7 +93,11 @@ class LeetcodeTests: XCTestCase {
   func testBestTimeToBuyAndSellStock() {
     XCTAssertEqual(maxProfit([7,1,5,3,6,4]), 5)
   }
-  
+
+  func testMaxSumOfSubArray() {
+    XCTAssertEqual(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
+    XCTAssertEqual(maxSubArray([1]), 1)
+  }
 }
 
 extension Array where Element: Comparable {
