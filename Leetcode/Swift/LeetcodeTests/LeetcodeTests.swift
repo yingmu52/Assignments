@@ -98,6 +98,10 @@ class LeetcodeTests: XCTestCase {
     XCTAssertEqual(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]), 6)
     XCTAssertEqual(maxSubArray([1]), 1)
   }
+
+  func testReverseWord() {
+    XCTAssertEqual(reverseWords("Let's take LeetCode contest"), "s'teL ekat edoCteeL tsetnoc")
+  }
 }
 
 extension Array where Element: Comparable {

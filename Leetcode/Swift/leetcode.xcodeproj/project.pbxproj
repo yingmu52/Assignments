@@ -61,6 +61,9 @@
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
+		A0BE11911FCFBBE600B5BA79 /* ReverseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */; };
+		A0BE11921FCFBBE600B5BA79 /* ReverseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */; };
+		A0BE11931FCFBBE600B5BA79 /* ReverseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */; };
 		A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
 		A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
 		A0E798BD1FC0FB2200A63395 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */; };
@@ -112,6 +115,7 @@
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUniqueCharacter.swift; sourceTree = "<group>"; };
+		A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWord.swift; sourceTree = "<group>"; };
 		A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		A0E798C01FC150B000A63395 /* Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Anagram.swift"; sourceTree = "<group>"; };
 		OBJ_10 /* LeftLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftLeavesSum.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 				OBJ_14 /* TrappingRainWater.swift */,
 				OBJ_15 /* Util.swift */,
 				OBJ_16 /* main.swift */,
+				A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */,
 				A082B93F1FCD051800054232 /* MaxSubArray.swift */,
 				A082B9351FCB767900054232 /* BestTimeToBuyAndSellStock.swift */,
 				A082B9311FCB59B500054232 /* MergeTwoSortedList.swift */,
@@ -336,6 +341,7 @@
 				A082B9391FCB770B00054232 /* ReverseLinkedList.swift in Sources */,
 				A06EDDB01FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A07A79AF1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
+				A0BE11931FCFBBE600B5BA79 /* ReverseWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +354,7 @@
 				A01B9D831FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A07A79A91FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A082B9321FCB59B500054232 /* MergeTwoSortedList.swift in Sources */,
+				A0BE11911FCFBBE600B5BA79 /* ReverseWord.swift in Sources */,
 				A0E798BB1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A01C1EF61FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0E798C11FC150B100A63395 /* Valid Anagram.swift in Sources */,
@@ -390,6 +397,7 @@
 				OBJ_35 /* MaxProduct.swift in Sources */,
 				A07A79A61FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				A07A79B21FC67D5400040CF6 /* SingleNumber.swift in Sources */,
+				A0BE11921FCFBBE600B5BA79 /* ReverseWord.swift in Sources */,
 				OBJ_36 /* SearchInsertPosition.swift in Sources */,
 				OBJ_37 /* TrappingRainWater.swift in Sources */,
 				A01B9D841FC7B67D00055697 /* MoveZeros.swift in Sources */,
