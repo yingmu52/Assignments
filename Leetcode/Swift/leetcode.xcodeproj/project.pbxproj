@@ -22,6 +22,9 @@
 		A0205FD01FC4B88E00829664 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */; };
 		A0205FD11FC4B88E00829664 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */; };
 		A0205FD21FC4B88E00829664 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */; };
+		A03AD3971FD0FAA90096ABF0 /* AddString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD3961FD0FAA90096ABF0 /* AddString.swift */; };
+		A03AD3981FD0FAA90096ABF0 /* AddString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD3961FD0FAA90096ABF0 /* AddString.swift */; };
+		A03AD3991FD0FAA90096ABF0 /* AddString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD3961FD0FAA90096ABF0 /* AddString.swift */; };
 		A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
 		A06EDDAF1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
 		A06EDDB01FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */; };
@@ -99,6 +102,7 @@
 		A01B9D861FC7BF3100055697 /* MajorElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorElement.swift; sourceTree = "<group>"; };
 		A01C1EF51FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBottomLeftTreeValue.swift; sourceTree = "<group>"; };
 		A0205FCF1FC4B88E00829664 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
+		A03AD3961FD0FAA90096ABF0 /* AddString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddString.swift; sourceTree = "<group>"; };
 		A06EDDAD1FC36EB7003AF89E /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
 		A07A79A41FC5279F00040CF6 /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
 		A07A79A81FC602D800040CF6 /* AllNumberDisappearedInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNumberDisappearedInArray.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				OBJ_14 /* TrappingRainWater.swift */,
 				OBJ_15 /* Util.swift */,
 				OBJ_16 /* main.swift */,
+				A03AD3961FD0FAA90096ABF0 /* AddString.swift */,
 				A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */,
 				A082B93F1FCD051800054232 /* MaxSubArray.swift */,
 				A082B9351FCB767900054232 /* BestTimeToBuyAndSellStock.swift */,
@@ -321,6 +326,7 @@
 			files = (
 				A0E798BF1FC1063800A63395 /* LeftLeavesSum.swift in Sources */,
 				A082B9381FCB767900054232 /* BestTimeToBuyAndSellStock.swift in Sources */,
+				A03AD3991FD0FAA90096ABF0 /* AddString.swift in Sources */,
 				A0E798BD1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
 				A07A79AB1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
 				A019E1651FBE808C00BE9B43 /* KDiffPairs.swift in Sources */,
@@ -361,6 +367,7 @@
 				A082B9361FCB767900054232 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				A07A79A51FC5279F00040CF6 /* UniquePaths.swift in Sources */,
 				A07A79AD1FC674B000040CF6 /* FizzBuzz.swift in Sources */,
+				A03AD3971FD0FAA90096ABF0 /* AddString.swift in Sources */,
 				A082B9401FCD051800054232 /* MaxSubArray.swift in Sources */,
 				A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
@@ -379,6 +386,7 @@
 			files = (
 				A094612A1FC9138000AEA378 /* SelfDividingNumbers.swift in Sources */,
 				A07A79AA1FC602D800040CF6 /* AllNumberDisappearedInArray.swift in Sources */,
+				A03AD3981FD0FAA90096ABF0 /* AddString.swift in Sources */,
 				A06EDDAF1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				OBJ_31 /* ClimbStairs.swift in Sources */,
 				A0E798BC1FC0FB2200A63395 /* CombinationSum.swift in Sources */,
@@ -544,7 +552,7 @@
 				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -557,7 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -619,6 +627,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -639,6 +648,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;

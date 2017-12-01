@@ -102,6 +102,10 @@ class LeetcodeTests: XCTestCase {
   func testReverseWord() {
     XCTAssertEqual(reverseWords("Let's take LeetCode contest"), "s'teL ekat edoCteeL tsetnoc")
   }
+
+  func testAddString() {
+    XCTAssertEqual(addStrings("1001", "9999"), "11000")
+  }
 }
 
 extension Array where Element: Comparable {
