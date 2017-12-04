@@ -75,6 +75,9 @@
 		A0E798C11FC150B100A63395 /* Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798C01FC150B000A63395 /* Valid Anagram.swift */; };
 		A0E798C21FC150B100A63395 /* Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798C01FC150B000A63395 /* Valid Anagram.swift */; };
 		A0E798C31FC150B100A63395 /* Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E798C01FC150B000A63395 /* Valid Anagram.swift */; };
+		A0F342681FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F342671FD51A04003CF6BD /* SumOfTwoInt.swift */; };
+		A0F342691FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F342671FD51A04003CF6BD /* SumOfTwoInt.swift */; };
+		A0F3426A1FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F342671FD51A04003CF6BD /* SumOfTwoInt.swift */; };
 		OBJ_31 /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ClimbStairs.swift */; };
 		OBJ_32 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* HammingDistance.swift */; };
 		OBJ_33 /* LeftLeavesSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* LeftLeavesSum.swift */; };
@@ -122,6 +125,7 @@
 		A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWord.swift; sourceTree = "<group>"; };
 		A0E798BA1FC0FB2200A63395 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
 		A0E798C01FC150B000A63395 /* Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Anagram.swift"; sourceTree = "<group>"; };
+		A0F342671FD51A04003CF6BD /* SumOfTwoInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfTwoInt.swift; sourceTree = "<group>"; };
 		OBJ_10 /* LeftLeavesSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftLeavesSum.swift; sourceTree = "<group>"; };
 		OBJ_11 /* MatrixDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixDistance.swift; sourceTree = "<group>"; };
 		OBJ_12 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				OBJ_14 /* TrappingRainWater.swift */,
 				OBJ_15 /* Util.swift */,
 				OBJ_16 /* main.swift */,
+				A0F342671FD51A04003CF6BD /* SumOfTwoInt.swift */,
 				A03AD3961FD0FAA90096ABF0 /* AddString.swift */,
 				A0BE11901FCFBBE600B5BA79 /* ReverseWord.swift */,
 				A082B93F1FCD051800054232 /* MaxSubArray.swift */,
@@ -337,6 +342,7 @@
 				A01C1EF81FBFA27D008CAF69 /* FindBottomLeftTreeValue.swift in Sources */,
 				A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */,
 				A082B9421FCD051800054232 /* MaxSubArray.swift in Sources */,
+				A0F3426A1FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */,
 				A01B9D891FC7BF3100055697 /* MajorElement.swift in Sources */,
 				A094612F1FC930D000AEA378 /* HouseRobber.swift in Sources */,
 				A094612B1FC9138000AEA378 /* SelfDividingNumbers.swift in Sources */,
@@ -371,6 +377,7 @@
 				A082B9401FCD051800054232 /* MaxSubArray.swift in Sources */,
 				A06EDDAE1FC36EB7003AF89E /* ReshapeTheMatrix.swift in Sources */,
 				A0E798BE1FC1063700A63395 /* LeftLeavesSum.swift in Sources */,
+				A0F342681FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */,
 				A07A79B11FC67D5400040CF6 /* SingleNumber.swift in Sources */,
 				A094612D1FC930D000AEA378 /* HouseRobber.swift in Sources */,
 				A082B92F1FCA5E7400054232 /* ReverseLinkedList.swift in Sources */,
@@ -411,6 +418,7 @@
 				A01B9D841FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */,
 				A082B9331FCB59B500054232 /* MergeTwoSortedList.swift in Sources */,
+				A0F342691FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */,
 				A0205FD11FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
 				OBJ_38 /* Util.swift in Sources */,
 				OBJ_39 /* main.swift in Sources */,
