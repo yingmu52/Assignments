@@ -61,6 +61,9 @@
 		A094612D1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
 		A094612E1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
 		A094612F1FC930D000AEA378 /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094612C1FC930D000AEA378 /* HouseRobber.swift */; };
+		A0A9E3FE2055C073009C5FE9 /* RatatingString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A9E3FD2055C073009C5FE9 /* RatatingString.swift */; };
+		A0A9E3FF2055C073009C5FE9 /* RatatingString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A9E3FD2055C073009C5FE9 /* RatatingString.swift */; };
+		A0A9E4002055C073009C5FE9 /* RatatingString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A9E3FD2055C073009C5FE9 /* RatatingString.swift */; };
 		A0AE16B71FBD685E002D14EF /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */; };
 		A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
 		A0AE16C51FBD6C99002D14EF /* FirstUniqueCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE16BE1FBD6A27002D14EF /* FirstUniqueCharacter.swift */; };
@@ -118,6 +121,7 @@
 		A09461241FC8FF7700AEA378 /* KeyboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardRow.swift; sourceTree = "<group>"; };
 		A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDividingNumbers.swift; sourceTree = "<group>"; };
 		A094612C1FC930D000AEA378 /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
+		A0A9E3FD2055C073009C5FE9 /* RatatingString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatatingString.swift; sourceTree = "<group>"; };
 		A0AE16B41FBD685E002D14EF /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE16B61FBD685E002D14EF /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		A0AE16B81FBD685E002D14EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -218,6 +222,7 @@
 				A01B9D861FC7BF3100055697 /* MajorElement.swift */,
 				A09461241FC8FF7700AEA378 /* KeyboardRow.swift */,
 				A09461281FC9137C00AEA378 /* SelfDividingNumbers.swift */,
+				A0A9E3FD2055C073009C5FE9 /* RatatingString.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -329,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A9E4002055C073009C5FE9 /* RatatingString.swift in Sources */,
 				A0E798BF1FC1063800A63395 /* LeftLeavesSum.swift in Sources */,
 				A082B9381FCB767900054232 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				A03AD3991FD0FAA90096ABF0 /* AddString.swift in Sources */,
@@ -361,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A0A9E3FE2055C073009C5FE9 /* RatatingString.swift in Sources */,
 				A01B9D871FC7BF3100055697 /* MajorElement.swift in Sources */,
 				A09461251FC8FF7700AEA378 /* KeyboardRow.swift in Sources */,
 				A01B9D831FC7B67D00055697 /* MoveZeros.swift in Sources */,
@@ -418,6 +425,7 @@
 				A01B9D841FC7B67D00055697 /* MoveZeros.swift in Sources */,
 				A0AE16C01FBD6A27002D14EF /* FirstUniqueCharacter.swift in Sources */,
 				A082B9331FCB59B500054232 /* MergeTwoSortedList.swift in Sources */,
+				A0A9E3FF2055C073009C5FE9 /* RatatingString.swift in Sources */,
 				A0F342691FD51A04003CF6BD /* SumOfTwoInt.swift in Sources */,
 				A0205FD11FC4B88E00829664 /* DiagonalTraverse.swift in Sources */,
 				OBJ_38 /* Util.swift in Sources */,
